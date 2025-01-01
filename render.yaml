@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: voila-notebook
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: voila your_notebook.ipynb --port $PORT --no-browser
