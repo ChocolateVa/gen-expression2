@@ -6,5 +6,4 @@ seaborn
 scipy
 jupyter
 ipykernel
-nb_conda_kernels
 
