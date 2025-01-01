@@ -3,4 +3,4 @@ services:
     name: voila-notebook
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: voila your_notebook.ipynb --port=$PORT --no-browser --host=0.0.0.0
+    startCommand: voila gen-expression.ipynb --port=$PORT --no-browser --host=0.0.0.0
